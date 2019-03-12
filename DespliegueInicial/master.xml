@@ -10,9 +10,9 @@
             WHERE author='DMARTINEZ'
         </sqlCheck>
     </preConditions>
-    <include file="=/var/lib/jenkins/workspace/PruebaSQLServer/CreacionObjetos.xml"/>
-    <include file="/var/lib/jenkins/workspace/PruebaSQLServer/InsertarDatos.xml"/>
-    <include file="/var/lib/jenkins/workspace/PruebaSQLServer/CrearVista.xml"/>
+    <include file="=/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/CreacionObjetos.xml"/>
+    <include file="/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/InsertarDatos.xml"/>
+    <include file="/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/CrearVista.xml"/>
     <!-- Do not include any more changes in this file -->
     <changeSet author="DMARTINEZ" id="1" />
 </databaseChangeLog>
