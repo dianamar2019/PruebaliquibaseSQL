@@ -11,8 +11,7 @@
         </sqlCheck>
     </preConditions>
     <include file="/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/DespliegueInicial/CreacionObjetos.xml"/>
-    <include file="/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/DespliegueInicial/InsertarDatos.xml"/>
-    <include file="/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/DespliegueInicial/CrearVista.xml"/>
+    <sqlFile  encoding="UTF8" endDelimiter="\n/\s*\n|\n/\s*$" splitStatements="true" stripComments="true"  path="/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/Insertarclientes.sql"/>
     <!-- Do not include any more changes in this file -->
     <changeSet author="DMARTINEZ" id="1" />
 </databaseChangeLog>
