@@ -5,9 +5,9 @@
     <preConditions>
         <!--These changes should only be run against a schema with major version 0-->
         <sqlCheck expectedResult="0">
-            SELECT NVL(MAX(id),0)
-            FROM databasechangelog
-            WHERE author='DMARTINEZ'
+            SELECT isnull(MAX(id),0)
+            FROM dbo.databasechangelog
+            WHERE author='DMARTINEZ';
         </sqlCheck>
     </preConditions>
     <include file="/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/DespliegueInicial/CreacionObjetos.xml"/>
