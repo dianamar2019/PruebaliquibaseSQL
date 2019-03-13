@@ -6,23 +6,23 @@ insert into [dbo].[clientes]
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
-			(1122334455,'FERMIN','TRUE',GETDATE());
+			(112233445,'FERMIN','TRUE',GETDATE());
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
-			(2233445566,'LORENA','TRUE',GETDATE());
+			(223344556,'LORENA','TRUE',GETDATE());
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
-			(7788990011,'TANIA','TRUE',GETDATE());
+			(778899001,'TANIA','TRUE',GETDATE());
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
-			(8899001122,'JORGE','TRUE',GETDATE());
+			(889900112,'JORGE','TRUE',GETDATE());
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
-			(9900112233,'FABIO','TRUE',GETDATE());
+			(990011223,'FABIO','TRUE',GETDATE());
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
@@ -38,5 +38,5 @@ insert into [dbo].[clientes]
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
-			(9078563412,'DAVID','TRUE',GETDATE());
+			(907856341,'DAVID','TRUE',GETDATE());
 COMMIT;
