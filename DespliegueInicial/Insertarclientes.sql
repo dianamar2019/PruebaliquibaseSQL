@@ -1,4 +1,3 @@
-GO
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
 			VALUES 
@@ -41,4 +40,3 @@ insert into [dbo].[clientes]
 			VALUES 
 			(9078563412,'DAVID','TRUE',GETDATE());
 COMMIT;
-GO
