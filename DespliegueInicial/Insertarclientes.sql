@@ -1,5 +1,3 @@
-USE [Pruebaliquibase]
-
 GO
 insert into [dbo].[clientes] 
 			([id],[nombre_cliente],[active],[fecha ingreso]) 
