@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.1
     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.1.xsd">
     <changeSet author="DMARTINEZ" id="8">
-		<dropTable tableName="clientes">    
-	    	<dropTable tableName="DATABASECHANGELOG" >
-            	<dropTable tableName="DATABASECHANGELOGLOCK" >   
+		 <dropTable tableName="clientes" />
+	    	<dropTable tableName="DATABASECHANGELOG" />
+            	<dropTable tableName="DATABASECHANGELOGLOCK" />   
     </changeSet>
 </databaseChangeLog>
