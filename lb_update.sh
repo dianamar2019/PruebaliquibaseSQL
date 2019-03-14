@@ -1,1 +1,1 @@
-./liquibase --changeLogFile=/var/lib/jenkins/workspace/PruebaliquibaseRollbackSQLServer/update.xml update
+./liquibase --changeLogFile=/var/lib/jenkins/workspace/PruebaliqubaseSQLServer/update.xml update
